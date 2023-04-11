@@ -1,0 +1,30 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+
+
+doc/  
+# Ignore the W3CMS env folder 
+W3CMS-Package-20-Feb-2023/W3CMS/env/ 
+# Static files
+/staticfiles/
+
+# Media files
+/media/
+
+# Virtual environment
+env/
+
+# IDE files
+.idea/
+
+# Compiled Python modules
+*.pyc
+
+# Backup files
+*~
+*.swp
